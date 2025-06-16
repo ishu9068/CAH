@@ -651,83 +651,7 @@ ul li {
       width: 20%;
     }
 
-/* 
-    .form-section{
-      height: 100vh;
-      width: 100%;
-      display: flex;
-    }
 
-
-.contact-section {
-  width: 50%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  padding-left: 10px;
-}
-
-.query-heading {
-  font-size: 28px;
-  font-weight: 800;
-  color: #0e0035; 
-  margin-bottom: 30px;
-}
-
-.contact-block {
-  margin-bottom: 30px;
-}
-
-.contact-title {
-  font-size: 14px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #0e0035;
-  margin-bottom: 10px;
-}
-
-.contact-text {
-  font-size: 18px;
-  color: #666;
-  line-height: 1.5;
-}
-
-.divider {
-  border: none;
-  border-top: 1px solid #e0e0e0;
-  margin: 30px 0;
-}
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  width: 80%;
-}
-
-.form-input,
-.form-textarea {
-  padding: 20px;
-  border: 1px solid #ccc;
-  font-size: 16px;
-  outline: none;
-  resize: none;
-}
-
-.form-button {
-  width: 220px;
-  padding: 15px;
-  background-color: #2f3332;
-  color: #fff;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-.form-button:hover {
-  background-color: #1f2120;
-} */
 
 .contact-wrapper {
   background: linear-gradient(to right, #ffffff 50%, #7c5dfa 50%);
@@ -815,7 +739,6 @@ ul li {
   background-color: #1d1f1e;
 }
 
-/* Responsive */
 @media (max-width: 900px) {
   .contact-container {
     flex-direction: column;
@@ -886,7 +809,109 @@ footer p{
 .footer-bottom-text {
   font-size: 15px;
   color: #ccc;
+ font-family: "Bebas Neue", Sans-serif;
 }
 
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    padding: 0;
+  }
+
+  .section2 {
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .heading {
+    font-size: 36px;
+  }
+
+  .heading-container h6 {
+    font-size: 14px;
+    width: 92%;
+    text-align: left;
+  }
+
+  .blueboxheading {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .blueboxtext {
+    text-align: center;
+  }
+
+  #bluebox {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .personal {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  #perosnal-deatils {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .itemsli {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  #education,
+  .experience {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .timeline {
+    padding-left: 0;
+    margin-left: 0;
+    border-left: none;
+  }
+
+  .timeline-item::before,
+  .timeline-item::after {
+    display: none;
+  }
+
+  .testimonial-container,
+  .top-services,
+  .bottom-services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .form-button {
+    width: 100%;
+  }
+
+  .social-icons1 {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .footer-title {
+    font-size: 28px;
+  }
+
+  .footer-bottom-text {
+    font-size: 13px;  
+  }
+}
 
   
